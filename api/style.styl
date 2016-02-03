@@ -1,0 +1,42 @@
+.thumbnails
+  height: auto
+  width: auto
+  max-width: 100px
+  max-height: 100px
+  vertical-align: middle
+  background-color:white
+.gallery:hover .default_gallery
+  -webkit-opacity: 0
+  -moz-opacity: 0
+  opacity: 0
+for num in range(0,(length(urls) - 1))
+  .thumb{num + 1}:hover ~ .swap{num + 1}
+    -webkit-opacity: 1
+    -moz-opacity: 1
+    opacity: 1
+.default_gallery
+  background: url(urls[0])
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  width:700px
+  height:450px
+.gallery, .default_gallery
+  -webkit-transition: all 1s ease-in-out
+  -moz-transition: all 1s ease-in-out
+  -ms-transition: all 1s ease-in-out
+  -o-transition: all 1s ease-in-out
+  transition: all 1s ease-in-out
+.gallery
+  -webkit-opacity: 0
+  -moz-opacity: 0
+  opacity: 0
+  width:700px
+  height:450px
+  margin-top:-450px
+for num in range(0,(length(urls) - 1))
+  .swap{num + 1}
+    background: #000 url(urls[num]);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 

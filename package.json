@@ -15,7 +15,9 @@
   "dependencies": {
     "body-parser": "^1.12.2",
     "cors": "^2.7.1",
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "jade": "^1.11.0",
+    "stylus": "^0.53.0"
   },
   "devDependencies": {
     "nodemon": "^1.7.1"

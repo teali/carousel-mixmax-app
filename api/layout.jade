@@ -1,0 +1,6 @@
+div
+  each url, index in urls
+    img(src=url class=['thumbnails', 'thumb' + (index + 1)])
+  div(class=['default_gallery'])
+  each url, index in urls
+    div(class=['gallery', 'swap' + (index + 1)])
