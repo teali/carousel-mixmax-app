@@ -1,0 +1,23 @@
+{
+  "name": "carousel-mixmax-app",
+  "version": "0.0.1",
+  "description": "Carousel App for Mixmax",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/teali/carousel-mixmax-app.git"
+  },
+  "author": "Tony Li",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}
